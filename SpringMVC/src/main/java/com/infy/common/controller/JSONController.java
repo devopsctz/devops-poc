@@ -22,7 +22,7 @@ public class JSONController {
 		
 		Shop shop = new Shop();		
 		if(name == null || name.trim().equals("") ){
-			System.out.println(" warning----name is emty");			
+			System.out.println(" warning----name is emty--");			
 			shop.setName("Empty !!!");
 			return shop;
 		}
