@@ -11,7 +11,7 @@
  <modules>
 	<module>SpringDAO</module>
 	<module>SpringMVC</module>
-	<module>SpringEar</module>
+	<module>SpringEAR</module>
   </modules> 
 
   <build>	
