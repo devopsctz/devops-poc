@@ -13,7 +13,7 @@ public class InsertDaoTest {
 	
 	@Test
 	public void testGetShop(){
-		System.out.println("------testGetShop----");
+		System.out.println("-----testGetShop----");
 		Shop shop=new InsertDAOImpl().getShop("test");		
 		Assert.assertEquals("Shop 1", shop.getId());
 		
